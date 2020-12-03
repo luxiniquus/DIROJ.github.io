@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+    <head>
+        <!--Metadatos relevantes-->
+        <title>¡No dejes que la Paloma conduzca el autobús!</title>                                          <!--Modificar Titulo de Página-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="in.css">                        <!--Modificar los estilos-->
+        <script type="text/javascript" src=".js" defer></script>  <!--Modificar los scripts-->
+        <link rel="shortcut icon" href="images/icono.png" type="image/png">
+
+        <!--Metadatos "irrelevantes"-->
+        <meta name="description" content="Esta es la pagina de Inicio de Sesión">
+        <meta name="author" content="Jacob Emmanuel Díaz Rodríguez, 
+        Gomez Vargas Jorge Damian, Heredia Avila Luis Antonio,
+        Maldonado Mora Aleida Judith, Zuñiga Zepeda Isaac Emmanuel">
+    </head>
+
+    <!--Cuerpo-->
+    <body>
+        <!--Barra Superior-->
+        <header class="cabecera">
+            <div class="btn-menu">
+                <label for="btn-menu" class="icon-menu"><img class="img-menu" src="images/menu.png" alt="menú"></label>
+                <a href="index.html">                                            <!--Hipervínculo-->
+                    <img class="icono" src="images/icono.png" alt="ícono">
+                </a>
+                <h1 class="nombre">Biblíon</h1>
+
+                <!--Formulario de Búsqueda-->
+                <form action=".php" method="" target="" class="buscar">
+                   <input type="search" name="busqueda" list="" class="buscar-input">
+                   <input type="submit" value="Buscar" class="buscar-btn">
+                </form>
+
+                <ul class="login">
+                    <li><a href="login.html" class="log-a">Iniciar Sesión</a></li><br>              <!--Agregar Hipervínculo-->
+                    <li><a href="sign-up.html" class="log-a">Registrarse</a></li>                     <!--Agregar Hipervínculo-->
+                </ul>
+            </div>
+        </header>
+
+        <!--Menú-->
+        <input type="checkbox" id="btn-menu">
+        <div class="container-menu">
+            <div class="cont-menu">
+                <nav>
+                    <a href="index.html">Inicio</a>                      <!--Agregar Hipervínculo-->           
+                    <a href="#">Género</a>                      <!--Agregar Hipervínculo-->
+                    <a href="#">Género</a>                      <!--Agregar Hipervínculo-->
+                    <a href="#">Género</a>                      <!--Agregar Hipervínculo-->
+                    <a href="#">Género</a>                      <!--Agregar Hipervínculo-->
+                    <a href="#">Género</a>                      <!--Agregar Hipervínculo-->
+                </nav>
+                <label for="btn-menu" class="icon-equis">
+                    <img class="img-menu-cerrar" src="images/cancelar.png" alt="cerrar">
+                </label>
+            </div>
+        </div>
+
+        <!--Libro--> 
+        <img id="Img-libro" class="efectolupa" src="https://images.jumpseller.com/store/ullabooks/918508/No_dejes_que_la_paloma_conduzca.jpg?1558718287">
+            <article id="info-libro">
+                <p id="titulo"><b>¡No dejes que la Paloma conduzca el autobús!</b></p>
+                <p id="autor">Mo Willems</p>
+                <p id="descripcion"><b>Editorial: </b>Hyperion Books for Children; Edición Illustrated (5 abril 2011)
+                <br><b>Publicación: </b>2003
+                <br><b>ISBN: </b>9781423140528
+                    <br><br><b>Descripción: </b>El conductor del autobús tiene que salir por un momento, y hace una petición de los lectores: "No dejen que la paloma conduzca el autobús. "Hey, puedo conducir el autobús?", pregunta la paloma. Ante la negativa de los lectores la paloma comienza a rogar e inicia una intensa negociación para conseguir que cambien de opinión. Incluso cuando la paloma hace un escándalo para poder manejar, los niños deben decirle que no, permitiendo que los niños se den cuenta que están haciendo el rol de padres y se reconocen a ellos mismos en el actuar de la paloma. Este libro es una excelente ayuda para enseñar a un niño, a través del humor, que a veces es importante decir que NO, una y otra y otra vez. Y también a reconocer cuando alguien te está manipulando para tratar de conseguir que digas que sí. </p>
+                <a id="apartar" href="apartar.html">Apartar</a>
+
+                <form id="calific">
+        <p class="clasificacion">
+        <input id="radio1" type="radio" name="estrellas" value="5"><!--
+        --><label for="radio1">★</label><!--
+        --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+        --><label for="radio2">★</label><!--
+        --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+        --><label for="radio3">★</label><!--
+        --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+        --><label for="radio4">★</label><!--
+        --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+        --><label for="radio5">★</label>
+        </p>
+                </form>
+                </article>
+               <!--Pie de Página-->
+        <footer>
+            <p class="info">
+                Iconos diseñados por 
+                <a href="https://www.flaticon.es/autores/pixel-perfect" title="Pixel perfect" class="footer-a">Pixel perfect</a>,
+                <a href="https://www.flaticon.es/autores/freepik" title="Freepik" class="footer-a">Freepik</a>,
+                <a href="https://www.flaticon.es/autores/anatoly" title="Anatoly" class="footer-a">Anatoly</a>
+                from <a href="https://www.flaticon.es/" title="Flaticon" class="footer-a">www.flaticon.es</a>
+            </p>
+        </footer>
+
+    </body>
+</html>
